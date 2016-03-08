@@ -11,7 +11,7 @@ import javax.persistence.Id;
 public class Game {
     @Id //this is an IDENTITY(SERIAL)
     @GeneratedValue //this sets up auto-increment
-    int id;
+            int id;
 
 
     String name;
@@ -58,4 +58,5 @@ public class Game {
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
     }
+
 }
