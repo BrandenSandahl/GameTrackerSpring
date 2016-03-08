@@ -7,10 +7,10 @@ import javax.persistence.Id;
 /**
  * Created by branden on 3/8/16 at 11:35.
  */
-@Entity
+@Entity //this tells Class and DB to sync up
 public class Game {
-    @Id
-    @GeneratedValue
+    @Id //this is an IDENTITY(SERIAL)
+    @GeneratedValue //this sets up auto-increment
     int id;
 
 
@@ -18,8 +18,10 @@ public class Game {
     String platform;
     int releaseYear;
 
-    public Game(int id, String name, String platform, int releaseYear) {
-        this.id = id;
+    public Game() {
+    }
+
+    public Game(String name, String platform, int releaseYear) {
         this.name = name;
         this.platform = platform;
         this.releaseYear = releaseYear;

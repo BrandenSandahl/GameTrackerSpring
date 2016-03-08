@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Tracker Home</title>
+</head>
+<body>
+<p>
+<form action="/add-game" method="post">
+    <input type="text" placeholder="Game Name" name="gameName" /><br />
+    <input type="text" placeholder="Game Platform" name="gamePlatform" /><br />
+    <input type="number" placeholder="Release Year" name="gameYear" /><br />
+    <button type="submit">Add Game</button><br />
+</form>
+</p>
+
+<ol>
+{{#games}}
+    <li>{{name}} - {{platform}} - {{releaseYear}}</li>
+{{/games}}
+</ol>
+</body>
+</html>
