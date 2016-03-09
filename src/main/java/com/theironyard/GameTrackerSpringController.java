@@ -15,8 +15,20 @@ public class GameTrackerSpringController {
     GameRepository games; //creates a repository object (see class)
 
     @RequestMapping(path = "/", method = RequestMethod.GET)
-    public String home(Model model) {
-        model.addAttribute("games", games.findAll());
+    public String home(Model model, String genre, Integer releaseYear, String platform) {
+        if (genre == null && releaseYear == null && platform == null) {
+            model.addAttribute("games", games.findAll());
+        }
+        else if (genre != null && releaseYear != null) {
+            model.addAttribute("games", games.findByGenreAndReleaseYearIsGreaterThanEqual(genre, releaseYear));
+            //model.addAttribute("games", games.findByGenreAndReleaseYear(genre, releaseYear));
+        }
+        else if (genre != null){
+            model.addAttribute("games", games.findByGenre(genre));
+        }
+        else if (platform != null) {
+            model.addAttribute("games", games.findByPlatformStartsWith(platform));
+        }
         return "home";
     }
 

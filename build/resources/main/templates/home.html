@@ -5,11 +5,33 @@
     <title>Game Tracker Home</title>
 </head>
 <body>
+<a href="/">All</a>
+<a href="/?genre=adventure">Adventure</a>
+<a href="/?genre=rpg">RPG</a>
+<a href="/?genre=strategy">Strategy</a>
+<a href="/?genre=shooter">Shooter</a>
+<a href="/?genre=classic">Classic</a>
+<a href="/?genre=shooter&releaseYear=2000">Genre and Year</a>
+<br />
 <p>
 <form action="/add-game" method="post">
     <input type="text" placeholder="Game Name" name="gameName" /><br />
-    <input type="text" placeholder="Game Platform" name="gamePlatform" /><br />
-    <input type="text" placeholder="Game Genre" name="gameGenre" /><br />
+    <select name="gameGenre">
+        <option selected disabled>Genre</option>
+        <option value="adventure">Adventure</option>
+        <option value="rpg">RPG</option>
+        <option value="strategy">Strategy</option>
+        <option value="shooter">Shooter</option>
+        <option value="classic">Classic</option>
+    </select>
+    <select name="gamePlatform">
+        <option selected disabled>Platform</option>
+        <option value="world">The actual world. In real life.</option>
+        <option value="pc">PC</option>
+        <option value="ps4">PS4</option>
+        <option value="xbone">Xbox One</option>
+        <option value="wiiu">Wii U</option>
+    </select>
     <input type="number" placeholder="Release Year" name="gameYear" /><br />
     <button type="submit">Add Game</button><br />
 </form>
