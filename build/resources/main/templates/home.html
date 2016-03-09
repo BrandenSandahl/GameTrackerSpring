@@ -9,6 +9,7 @@
 <form action="/add-game" method="post">
     <input type="text" placeholder="Game Name" name="gameName" /><br />
     <input type="text" placeholder="Game Platform" name="gamePlatform" /><br />
+    <input type="text" placeholder="Game Genre" name="gameGenre" /><br />
     <input type="number" placeholder="Release Year" name="gameYear" /><br />
     <button type="submit">Add Game</button><br />
 </form>
@@ -16,7 +17,7 @@
 
 <ol>
 {{#games}}
-    <li>{{name}} - {{platform}} - {{releaseYear}}</li>
+    <li>{{name}} - {{platform}} - {{genre}} - {{releaseYear}}</li>
 {{/games}}
 </ol>
 </body>
