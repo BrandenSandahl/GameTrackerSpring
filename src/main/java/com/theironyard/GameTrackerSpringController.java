@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.tags.HtmlEscapeTag;
 
+import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -18,6 +19,11 @@ public class GameTrackerSpringController {
     GameRepository games; //creates a repository object (see class)
     @Autowired
     UserRepository users;
+
+    @PostConstruct
+    public void init() {
+        System.out.println("Start it up!");
+    }
 
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public String home(HttpSession session, Model model, String genre, Integer releaseYear, String platform) {
