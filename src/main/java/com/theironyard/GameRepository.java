@@ -10,9 +10,10 @@ import java.util.List;
  */
 
 public interface GameRepository extends CrudRepository<Game, Integer> {
-    List<Game> findByGenre(String genre);  //this is a sorting method. takes type to return, has to be named finByX, and search term
-    List<Game> findByGenreAndReleaseYear(String genre, int releaseYear);
-    List<Game> findByGenreAndReleaseYearIsGreaterThanEqual(String genre, int minYear);
+    List<Game> findByUser(User user);
+    List<Game> findByUserAndGenre(User user, String genre);  //this is a sorting method. takes type to return, has to be named finByX, and search term
+    List<Game> findByUserAndGenreAndReleaseYear(User user, String genre, int releaseYear);
+    List<Game> findByUserAndGenreAndReleaseYearIsGreaterThanEqual(User user, String genre, int minYear);
 
     Game findFirstByGenre(String genre);
     int countByGenre(String genre);

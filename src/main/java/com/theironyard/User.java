@@ -13,13 +13,14 @@ public class User {
     @GeneratedValue
     int id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     String name;
 
 
+    public User(String name) {
+        this.name = name;
+    }
 
-
-
-
-
+    public User() {
+    }
 }

@@ -5,6 +5,20 @@
     <title>Game Tracker Home</title>
 </head>
 <body>
+{{^user}}
+<form action="/login" method="post">
+    <input type="text" placeholder="user name" name="userName" />
+    <button type="submit">Login</button>
+</form>
+{{/user}}
+
+{{#user}}
+Welcome, {{name}}! <br />
+<form action="/logout" method="post">
+    <button type="submit">Logout</button>
+</form>
+
+
 <a href="/">All</a>
 <a href="/?genre=adventure">Adventure</a>
 <a href="/?genre=rpg">RPG</a>
@@ -42,5 +56,7 @@
     <li>{{name}} - {{platform}} - {{genre}} - {{releaseYear}}</li>
 {{/games}}
 </ol>
+
+{{/user}}
 </body>
 </html>
