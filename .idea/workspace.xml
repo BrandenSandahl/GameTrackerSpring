@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d7e2914-dc45-4f47-8b81-4327276b65e3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/theironyard/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/theironyard/GameRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/theironyard/GameTrackerSpringController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/theironyard/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/theironyard/UserRepository.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/Game.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/Services/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java" afterPath="$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" />
     </list>
     <ignored path="GameTrackerSpring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,64 +49,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GameTrackerSpringController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6955645">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.8770161">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1334#1335#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1410#1411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +79,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.291667">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state vertical-scroll-proportion="16.583334">
+              <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -567,12 +541,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/theironyard/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/theironyard/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Services/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Utils/PasswordStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java" />
       </list>
     </option>
   </component>
@@ -613,8 +593,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -722,6 +702,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameTrackerSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameTrackerSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theironyard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -735,6 +745,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/theironyard/Utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/theironyard/Services" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/theironyard/Entities" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/theironyard/controllers" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.GameTrackerSpringApplication">
     <configuration default="false" name="GameTrackerSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1037,7 +1055,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1046,7 +1064,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1076,74 +1094,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,108 +1108,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1263,142 +1116,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57768923">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.291667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
@@ -1406,25 +1176,372 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6955645">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50199205">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/GameTrackerSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0996016">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Utils/PasswordStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12096774">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3366935">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Services/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6653226">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.583334">
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/Entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theironyard/controllers/GameTrackerSpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8770161">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

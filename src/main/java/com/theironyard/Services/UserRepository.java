@@ -1,5 +1,6 @@
-package com.theironyard;
+package com.theironyard.Services;
 
+import com.theironyard.Entities.User;
 import org.springframework.data.repository.CrudRepository;
 
 /**

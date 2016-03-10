@@ -1,4 +1,4 @@
-package com.theironyard;
+package com.theironyard.Entities;
 
 import javax.persistence.*;
 
@@ -74,5 +74,13 @@ public class Game {
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

@@ -1,5 +1,7 @@
-package com.theironyard;
+package com.theironyard.Services;
 
+import com.theironyard.Entities.Game;
+import com.theironyard.Entities.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
